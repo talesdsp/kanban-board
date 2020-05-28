@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const Container = styled.div`
   padding: 0 1.5rem;
   height: 100%;
-  flex: 0 0 32rem;
+  flex: 0 0 30rem;
+  opacity: ${(props) => props.done && 0.7};
 
-  & + div {
+  + div {
     border-left: 0.1rem solid rgba(0, 0, 0, 0.05);
   }
 
-  header {
+  > header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,12 +23,22 @@ export const Container = styled.div`
     }
 
     button {
-      width: 4.2rem;
-      height: 4.2rem;
-      border-radius: 40%;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 0.3rem;
       background: #3b5bfd;
       border: 0;
       cursor: pointer;
     }
+  }
+
+  ul {
+    margin-top: 1rem;
+  }
+  > span {
+    font-size: 1.1rem;
+    text-align: center;
+    display: block;
+    color: #555;
   }
 `;

@@ -1,12 +1,12 @@
 export const loadLists = () => [
   {
-    title: "Backlog",
+    title: "Todo",
     creatable: true,
     cards: [
       {
         id: 1,
         content: "User can reset password",
-        labels: ["#7159c1"],
+        labels: ["#21a577"],
         tags: ["New feature"],
         user: "https://api.adorable.io/avatars/24/al",
       },
@@ -17,8 +17,22 @@ export const loadLists = () => [
     creatable: false,
     cards: [
       {
-        id: 1,
+        id: 2,
         content: "Add company section",
+        labels: ["#7159c1"],
+        tags: ["Enhance UX"],
+        user: "https://api.adorable.io/avatars/24/ald",
+      },
+      {
+        id: 3,
+        content: "Add company section",
+        labels: ["#7159c1"],
+        tags: ["Enhance UX"],
+        user: "https://api.adorable.io/avatars/24/ald",
+      },
+      {
+        id: 9,
+        content: "Add search section",
         labels: ["#7159c1"],
         tags: ["Enhance UX"],
         user: "https://api.adorable.io/avatars/24/ald",
@@ -30,7 +44,7 @@ export const loadLists = () => [
     creatable: false,
     cards: [
       {
-        id: 1,
+        id: 4,
         content: "Update legacy code",
         labels: ["#7159c1"],
         tags: ["Performance"],
@@ -43,7 +57,7 @@ export const loadLists = () => [
     creatable: false,
     cards: [
       {
-        id: 1,
+        id: 5,
         content: "User can filter cards by tag",
         labels: ["#7159c1"],
         tags: ["New Feature"],
@@ -57,14 +71,14 @@ export const loadLists = () => [
     creatable: false,
     cards: [
       {
-        id: 1,
+        id: 6,
         content: "Fix button overlay",
         labels: ["#7159c1"],
         tags: ["Bug"],
         user: "https://api.adorable.io/avatars/24/erl",
       },
       {
-        id: 1,
+        id: 7,
         content: "User can login to dashboard",
         labels: ["#7159c1"],
         tags: ["New Feature"],
